@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { navigate, createNavigate } from '@/index'
 
 async function main() {
