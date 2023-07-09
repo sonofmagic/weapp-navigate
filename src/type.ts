@@ -54,6 +54,14 @@ export interface IGlobalTarget {
   switchTab: typeof wx.switchTab
 }
 
+export interface CallbackResult {
+  eventChannel?: WechatMiniprogram.EventChannel
+  errMsg: string
+}
+// onFulfilled?: ((value: V) => V | Promise<V>) | null, onRejected
 export interface ICreateNavigateOptions {
   globalTarget?: IGlobalTarget
+  onError?: (err: Error) => void
+  onBeforeExecute?: (options: NavigateOptions) => void | Promise<void>
+  onAfterExecute?: (result: CallbackResult) => void | Promise<void>
 }
