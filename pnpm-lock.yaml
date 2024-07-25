@@ -43,7 +43,7 @@ devDependencies:
     version: 20.4.1
   '@types/querystringify':
     specifier: ^2.0.0
-    version: 2.0.0
+    version: 2.0.2
   '@types/semantic-release':
     specifier: ^20.0.1
     version: 20.0.1
@@ -1180,8 +1180,8 @@ packages:
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
     dev: true
 
-  /@types/querystringify@2.0.0:
-    resolution: {integrity: sha512-9WgEGTevECrXJC2LSWPqiPYWq8BRmeaOyZn47js/3V6UF0PWtcVfvvR43YjeO8BzBsthTz98jMczujOwTw+WYg==}
+  /@types/querystringify@2.0.2:
+    resolution: {integrity: sha512-7d6OQK6pJ//zE32XLK3vI6GHYhBDcYooaRco9cKFGNu59GVatL5+u7rkiAViq44DxDTd/7QQNBWSDHfJGBz/Pw==}
     dev: true
 
   /@types/resolve@1.20.2:
