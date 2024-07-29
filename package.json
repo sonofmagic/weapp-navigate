@@ -68,7 +68,7 @@
     "axios": "^1.4.0",
     "cross-env": "^7.0.3",
     "defu": "^6.1.2",
-    "del": "^6.1.1",
+    "del": "^7.0.0",
     "eslint": "8.57.0",
     "eslint-config-icebreaker": "^1.1.0",
     "eslint-config-prettier": "^8.8.0",
